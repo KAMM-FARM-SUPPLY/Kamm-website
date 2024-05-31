@@ -12,7 +12,8 @@ import { ReactComponent as CloseIcon } from "feather-icons/dist/icons/x.svg";
 
 const Header = tw.header`
   flex justify-between items-center
-  max-w-screen-xl mx-auto
+  bg-blend-normal
+  max-w-screen-xl mx-auto 
 `;
 
 export const NavLinks = tw.div`inline-block`;
@@ -73,13 +74,13 @@ export default ({ roundedHeaderButton = false, logoLink, links, className, colla
   const defaultLinks = [
     <NavLinks key={1}>
       <NavLink href="/">Home</NavLink>
-      <NavLink href="/#">About us</NavLink>
+      <NavLink href="/About">About us</NavLink>
+      <NavLink href="/Events">Upcoming Events</NavLink>
+      <NavLink href="/Activities">Activities</NavLink>
       <NavLink href="/FAQs">FAQs</NavLink>
       <NavLink href="/Services">Services</NavLink>
       <NavLink href="/Contact">Contact Us</NavLink>
-      <NavLink href="/#" tw="lg:ml-12!">
-        Login
-      </NavLink>
+      
       {/* <PrimaryLink css={roundedHeaderButton && tw`rounded-full`}href="/#">Sign Up</PrimaryLink> */}
     </NavLinks>
   ];
@@ -89,8 +90,8 @@ export default ({ roundedHeaderButton = false, logoLink, links, className, colla
 
   const defaultLogoLink = (
     <LogoLink href="/">
-      <img src={logo} alt="logo" />
-      KAMM
+      {/* <img src={logo} alt="logo" /> */}
+      KAMM FARM SERVICES
     </LogoLink>
   );
 

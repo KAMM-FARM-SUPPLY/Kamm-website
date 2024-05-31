@@ -57,35 +57,37 @@ const CardMetaFeature = styled.div`
 const CardAction = tw(PrimaryButtonBase)`w-full mt-6`;
 
 export default ({
-  subheading = "Our Portfolio",
+  subheading = "Achievements",
   headingHtmlComponent = (
     <>
-      We've done some <span tw="text-primary-500">amazing projects.</span>
+      Turning Dreams into Achievements<span tw="text-primary-500">, One Goal at a Time.</span>
     </>
   ),
-  description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam.",
-  linkText = "View all Projects",
-  cardLinkText = "Read Case Study",
+  description = "Some of the recent activities that we participated in .",
+  linkText = "View all Activities",
+  cardLinkText = "View more",
   textOnLeft = false
 }) => {
   const cards = [
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1563461660947-507ef49e9c47?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=768&q=80",
-      company: "Tesla Inc.",
-      type: "Ad Campaign",
-      title: "Personalized Ad Campaign using Google AdWords",
-      durationText: "90 Days Campaign",
-      locationText: "New York"
+      require("../../images/3.jpg"),
+      company: "#AGRF2023.",
+      type: "Summit",
+      title: "Africa's Food Systems Forum 2023 Summit under the theme, “Recover, Regenerate, ...",
+      durationText: "4 Days Campaign",
+      locationText: "Dar-es-salaam ,Tanzania",
+      link_destination : "https://agrf.org/summit/2023/"
     },
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1573165231977-3f0e27806045?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=768&q=80",
-      company: "Nestle",
-      type: "SEO Marketing",
-      title: "Ranking #1 for keywords like Chocolate, Snack",
-      durationText: "180 Day Campaign",
-      locationText: "Palo Alto"
+      require("../../images/10.jpg"),
+      company: "Mr. Kwittegera Hassan Kato",
+      type: "Manager",
+      title: "Africa Foods Systems summit award to KAMM FARMERS SERVICES.",
+      durationText: "4 Day Campaign",
+      locationText: "Dar-es-salaam , Tanzania",
+      link_destination : "https://agrf.org/summit/2023/",
     }
   ];
   return (
@@ -120,7 +122,7 @@ export default ({
                       <LocationIcon /> {card.locationText}
                     </CardMetaFeature>
                   </CardMeta>
-                  <CardAction>{cardLinkText}</CardAction>
+                  <CardAction onClick={()=>{window.open(card.link_destination, '_blank').focus();}}>{cardLinkText}</CardAction>
                 </CardText>
               </Card>
             </CardColumn>

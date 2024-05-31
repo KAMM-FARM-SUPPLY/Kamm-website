@@ -28,7 +28,7 @@ export default () => {
                   <AddressLine>Plot 46</AddressLine>
                 </Address>
                 <Email>KAMMFARM@gmail.com</Email>
-                <Phone>0758989095</Phone>
+                <Phone>0754066646</Phone>
               </>
             )
           },

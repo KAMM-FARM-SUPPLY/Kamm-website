@@ -105,6 +105,10 @@ import ContactUsPage from "pages/ContactUs.js";
 import ComponentRenderer from "ComponentRenderer.js";
 import MainLandingPage from "MainLandingPage.js";
 import ThankYouPage from "ThankYouPage.js";
+import Awards from "pages/Awards.js";
+import Activities from "pages/Activities.js";
+import Events from "pages/Events.js"
+import AboutUs from "pages/AboutUs";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
@@ -126,6 +130,11 @@ export default function App() {
           <Route path="/FAQs" element={<FAQ/>}/>
           <Route path="/Contact" element={<ContactUsPage/>}/>
           <Route path="/Services" element={<DashedBorderSixFeatures/>}/>
+          <Route path="/Awards" element={<Awards/>}/>
+          <Route path="/Activities" element={<Activities/>}/>
+          <Route path="/Events" element={<Events/>}/>
+          <Route path="/About" element={<AboutUs/>}/>
+
         </Routes>
       </Router>
     </>

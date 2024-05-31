@@ -35,14 +35,17 @@ export default () => {
       <Content>
         <Row>
           <LogoContainer>
-            <LogoImg src={logo} />
             <LogoText>KAMM FARM SERVICES</LogoText>
           </LogoContainer>
           <LinksContainer>
             <Link href="/">Home</Link>
             <Link href = "/FAQs" >FAQs</Link>
-            <Link href="#">About</Link>
-            <Link href="#">Contact Us</Link>
+            <Link href="/About">About</Link>
+            <Link href="/Contact">Contact Us</Link>
+            <Link href="/Events">Events</Link>
+            <Link href="/Activities">Activities</Link>
+            <Link href="/Services">Services</Link>
+
           </LinksContainer>
           <SocialLinksContainer>
             <SocialLink href="https://facebook.com">
@@ -56,7 +59,7 @@ export default () => {
             </SocialLink>
           </SocialLinksContainer>
           <CopyrightText>
-            &copy; Copyright 2023, KAMM FARM SERVICES. All Rights Reserved.
+            &copy; Copyright 2024, KAMM FARM SERVICES. All Rights Reserved.
           </CopyrightText>
         </Row>
       </Content>

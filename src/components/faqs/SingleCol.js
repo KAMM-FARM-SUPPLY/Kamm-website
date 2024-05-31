@@ -48,22 +48,22 @@ export default ({
     {
       question: "What are some of the benefits KAMM Loans?",
       answer:
-        "Yes, it is, if you have a membership with us. Otherwise it is charged as per the menu. Some limits do apply as to how much items can be included in your lunch. This limit is enough for any one person and merely exists to discourage abusal of the system."
+        "Agricultural Loans , Farm Inputs , Product Delivery"
     },
     {
       question: "How do i register for KAMM Loan Scheme?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        "Reach out to our field officers or one of our branches to register with us."
     },
     {
       question: "What are the example interest rates for the KAMM Loans ?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        "Reach out to our branches to find out more ."
     },
     {
       question: "Where are your branches located ?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        "Masaka Buddu Street , Kampala Busega near Bukoola."
     }
   ]
 }) => {

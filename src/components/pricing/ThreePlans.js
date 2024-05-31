@@ -145,7 +145,7 @@ export default ({
               {!plan.featured && <div className="planHighlight" css={highlightGradientsCss[index % highlightGradientsCss.length]} />}
               <PlanHeader>
                 <span className="name">{plan.name}</span>
-                <span className="price">{plan.price}</span>
+                {/* <span className="price">{plan.price}</span> */}
                 <span className="duration">{plan.duration}</span>
               </PlanHeader>
               <PlanFeatures>

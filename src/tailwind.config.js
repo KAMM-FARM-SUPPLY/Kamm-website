@@ -177,8 +177,14 @@ module.exports = {
       '96': '24rem',
       '128': '32rem',
       '144': '36rem',
+      '160': '50rem',
     },
     backgroundColor: theme => theme('colors'),
+    extend: {
+      backgroundImage: {
+        'Landing': "url('/images/KAMMbg.jpg')",
+      }
+    },
     backgroundPosition: {
       bottom: 'bottom',
       center: 'center',
@@ -336,6 +342,7 @@ module.exports = {
     inset: {
       '0': '0',
       '1/2': '50%',
+      '1/6' : '20%',
       auto: 'auto',
     },
     letterSpacing: {

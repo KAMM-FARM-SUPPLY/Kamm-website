@@ -56,7 +56,8 @@ export default ({ roundedHeaderButton }) => {
               KAMM FARM <span tw="text-primary-500">Services.</span>
             </Heading>
             <Paragraph>
-              Kamm Farm Services is an agricultural institution aimed at providing quality and affordable agricultural services through Fostering Sustainability through Digital Agri-Tech.
+              Kamm Farm Services is an agricultural institution aimed at improving livelihoods through access to quality fertilisers , good agronomic trainings , financial literacy and access to crop advances which will enhance productivity and eventually more revenue for the farmer
+
             </Paragraph>
             <Actions>
               <input type="text" placeholder="Your E-mail Address" />

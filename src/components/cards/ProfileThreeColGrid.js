@@ -48,7 +48,7 @@ export default ({
     {
       imageSrc: "https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&fit=facearea&facepad=2.95&w=512&h=512&q=80",
       position: "Founder",
-      name: "Adam Cuppy",
+      name: "Mr Kwittegera Hassan",
       links: [
         {
           url: "https://twitter.com",
@@ -66,7 +66,7 @@ export default ({
     },
     {
       imageSrc: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&fit=facearea&facepad=2.95&w=512&h=512&q=80",
-      position: "Sr. Designer",
+      position: "Field Officer",
       name: "Charlotte Hale",
       links: [
         {
@@ -85,7 +85,7 @@ export default ({
     },
     {
       imageSrc: "https://images.unsplash.com/photo-1517070208541-6ddc4d3efbcb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&fit=facearea&facepad=2.95&w=512&h=512&q=80",
-      position: "Jr. Designer",
+      position: "Field Officer",
       name: "Silvester Wize",
       links: [
         {
@@ -104,7 +104,7 @@ export default ({
     },
     {
       imageSrc: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&fit=facearea&facepad=2.95&w=512&h=512&q=80",
-      position: "Lead Developer",
+      position: "Field Officer",
       name: "Himali Turn",
       links: [
         {
@@ -123,7 +123,7 @@ export default ({
     },
     {
       imageSrc: "https://images.unsplash.com/photo-1546820389-44d77e1f3b31?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&fit=facearea&facepad=3.45&w=512&h=512&q=80",
-      position: "Sr. Developer",
+      position: "Field Officer",
       name: "Troye Sivan",
       links: [
         {
@@ -142,7 +142,7 @@ export default ({
     },
     {
       imageSrc: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&fit=facearea&facepad=3.45&w=512&h=512&q=80",
-      position: "Quality Assurance",
+      position: "Field Officer",
       name: "Holo Wo",
       links: [
         {

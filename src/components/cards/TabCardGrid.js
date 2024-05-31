@@ -193,14 +193,14 @@ export default ({
               <CardContainer key={index}>
                 <Card className="group" href={card.url} initial="rest" whileHover="hover" animate="rest">
                   <CardImageContainer imageSrc={card.imageSrc}>
-                    <CardRatingContainer>
+                    {/* <CardRatingContainer>
                       <CardRating>
                         <StarIcon />
                         {card.rating}
                       </CardRating>
                       <CardReview>({card.reviews})</CardReview>
-                    </CardRatingContainer>
-                    <CardHoverOverlay
+                    </CardRatingContainer> */}
+                    {/* <CardHoverOverlay
                       variants={{
                         hover: {
                           opacity: 1,
@@ -214,12 +214,12 @@ export default ({
                       transition={{ duration: 0.3 }}
                     >
                       <CardButton>Buy Now</CardButton>
-                    </CardHoverOverlay>
+                    </CardHoverOverlay> */}
                   </CardImageContainer>
                   <CardText>
                     <CardTitle>{card.title}</CardTitle>
                     <CardContent>{card.content}</CardContent>
-                    <CardPrice>{card.price}</CardPrice>
+                    <CardPrice>{card.Type}</CardPrice>
                   </CardText>
                 </Card>
               </CardContainer>

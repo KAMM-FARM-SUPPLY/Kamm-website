@@ -80,7 +80,7 @@ export default ({ cards = null, heading = "Amazing Features", subheading = "Feat
     },
     { 
       imageSrc: CustomizeIconImage,
-      title: "Agro-inputs",
+      title: "Other agro-inputs",
       description : "This includes products like knapsacksprayers , herbicides(weed master , etc) , insecticides(Rocket , etc) for various uses "
     },
     { 
@@ -92,6 +92,21 @@ export default ({ cards = null, heading = "Amazing Features", subheading = "Feat
       imageSrc: FastIconImage,
       title: "Product Delivery",
       description : "We provide products delivery to our clients all over the country."
+    },
+    { 
+      imageSrc: FastIconImage,
+      title: "Agronomy Trainings",
+      description : "Providing individuals with knowledge and skills related to the science and practice of agronomy."
+    },
+    { 
+      imageSrc: FastIconImage,
+      title: "Financial literacy",
+      description : "We provide literal best practice regarding financial literacy in corellation to farming."
+    },
+    { 
+      imageSrc: FastIconImage,
+      title: "Gender training(Household training)",
+      description : "Awareness-building process aimed at increasing understanding and awareness of gender-related issues, promoting gender equality."
     },
     // { imageSrc: SimpleIconImage, title: "Easy" }
   ];

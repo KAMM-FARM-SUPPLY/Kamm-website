@@ -4,7 +4,7 @@ import tw from "twin.macro";
 import styled from "styled-components"; //eslint-disable-line
 import { css } from "styled-components/macro"; //eslint-disable-line
 import Header from "components/headers/light.js";
-import Footer from "components/footers/FiveColumnWithInputForm.js";
+import Footer from "components/footers/MiniCenteredFooter.js";
 import MainFeature1 from "components/features/TwoColWithButton.js";
 // import MainFeature2 from "components/features/TwoColSingleFeatureWithStats.js";
 // import MainFeature3 from "components/features/TwoColSingleFeatureWithStats2.js";
@@ -22,45 +22,49 @@ export default () => {
     <AnimationRevealPage>
       <Header />
       <MainFeature1
-        subheading={<Subheading>About Treact</Subheading>}
-        heading="We are a modern design agency."
+        subheading={<Subheading>About KAMM FARM SERVICES</Subheading>}
+        heading="Supplying farmers with the best products."
+        description="Kamm Farm Services is an agricultural institution aimed at improving livelihoods through access to quality fertilisers , good agronomic trainings , financial literacy and access to crop advances which will enhance productivity and eventually more revenue for the farmer"
         buttonRounded={false}
-        primaryButtonText="See Portfolio"
-        imageSrc="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=768&q=80"
+        primaryButtonUrl = "/Activities"
+        primaryButtonText="See Activities"
+        imageSrc= {require("../images/kamm/9.jpg")}
       />
       <MainFeature1
         subheading={<Subheading>Our Vision</Subheading>}
-        heading="We aim to disrupt the design space."
+        heading="We aim to improve the agricultural subsytem in the central region."
         buttonRounded={false}
         primaryButtonText="Contact Us"
-        imageSrc="https://images.unsplash.com/3/doctype-hi-res.jpg?ixlib=rb-1.2.1&auto=format&fit=crop&w=768&q=80"
+        imageSrc= {require("../images/4.jpg")}
         textOnLeft={false}
       />
       <Features
         subheading={<Subheading>Our Values</Subheading>}
         heading="We follow these."
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        description=""
         cards={[
           {
             imageSrc: SupportIconImage,
-            title: "24/7 Support",
-            description: "Lorem ipsum donor amet siti ceali placeholder text alipiscing elit sed do eiusmod temport"
+            title: "24/7 Service",
+            description: "Have any queries, Please reach out to our hotlines or use the contact page."
           },
           {
             imageSrc: ShieldIconImage,
-            title: "Strong Teams",
-            description: "Lorem ipsum donor amet siti ceali placeholder text alipiscing elit sed do eiusmod temport"
+            title: "Quality",
+            description: "Providing quality products to our clients."
           },
           {
             imageSrc: CustomerLoveIconImage,
             title: "Customer Satisfaction",
-            description: "Lorem ipsum donor amet siti ceali placeholder text alipiscing elit sed do eiusmod temport"
+            description: "We value your presence as our customer ."
           },
         ]}
         linkText=""
       />
       <TeamCardGrid 
-        subheading={<Subheading>Our Team</Subheading>}
+        subheading={<Subheading></Subheading>}
+        heading = {"Meet our Team"}
+        description=""
       />
       <Footer />
     </AnimationRevealPage>
