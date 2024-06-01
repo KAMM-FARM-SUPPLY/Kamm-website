@@ -6,6 +6,8 @@ import { css } from "styled-components/macro"; //eslint-disable-line
 import Header, { NavLink, NavLinks, PrimaryLink, LogoLink, NavToggle, DesktopNavLinks } from "../headers/light.js";
 import ResponsiveVideoEmbed from "../../helpers/ResponsiveVideoEmbed.js";
 
+import bg from "../../images/KAMMbg.jpg"
+
 const StyledHeader = styled(Header)`
   ${tw`pt-8 max-w-none`}
   ${DesktopNavLinks} ${NavLink}, ${LogoLink} {
@@ -17,9 +19,10 @@ const StyledHeader = styled(Header)`
 `;
 const Container = styled.div`
   ${tw`relative -mx-8 -mt-8 bg-center bg-cover`}
-  background-image: url("https://lh3.googleusercontent.com/pw/AP1GczNvDmWInYaUb-UNq0fZcvb8p0ejTQiH2Cn_OovIQ-FCenASGj3oyuysMQeMcYDasBGeuKzaBibrdZ7zjS-tlbpNCipV1sxD60iYVgOCvbjsBIxLJnuDwqD-3sKIA-VvJJWWjaMGZ6Y3Oq23YoSK80rcbpwPI7xLEGEATeURu9bLQWjCxcSf8pPVXq5XnvcM-wWaZ68jm8g6hckHQ2D7IOKDFdfZ6HCgmyMkQdeF6T-A_6eQVtjUSw6CnViKK4_I-4bR2Fm4AvNWzyK1zq8Z3zJIr3OLmP1VByi69YMvc7lNT7fVZO66U7sia40VXiV-Oy1a8209rqaL07Cn93A0Z7WPuOyR4_zBtrhV6510ryQW6VM5_N30jrtbkNDdYZU9znIfGJt0tfSeNjSOTj_847tz3aGBGAsyhezZoKh1uyH30FJPoIxUOQP75P0xYARtgpDk5Uoi4KWcI_6DHOYh85iKo3c-F1u02oGcuqSF8bNXWfx1WbOT4hpFAmIag1MG4EiF5GT1cP2zShZu1uuPJAn2Lgo2bMRtgiu-D6FUmQ4Rj8ZHq60GExTiMuuNdsH-p_K4txeRh__QJmA-w2P1wRzCPUe1x0cO7GHetazDFx94O3Kf96Ag4bik6lqngz5Qxnld6XK88rOyrEL608JcJcwL_KFR6_HlO11TWxfGJAFOOuejRtyvLBlOrPHqo2F2D7bawqTC1r8b0W7eZgeyIbiduvZW_ZpmT7qlgSxl6qFMKOXyWNLgAymlUshMc-C_QLdD3EciLu1cR2ecb2qCQuMRJwjFh5chhWuxaUvlsGz7gRsB8WgNdtc3D72aI74XLGlYSnM0gOSnzUuIfvCbYQva5gqiKe2kBt6IpXcTxb2lkKsAWzDHaAsWYccyxpH3CHBGdWF97nOteJYsEfJigCA=w774-h516-no?authuser=0");
+  background-image: url(${bg});
   `
   ;
+
 
 const OpacityOverlay = tw.div`z-10 absolute inset-0 bg-primary-500 opacity-25`;
 
@@ -86,13 +89,13 @@ export default () => {
         <StyledHeader/>
         <TwoColumn>
           <LeftColumn>
-            <Notification>We have now launched operations in entire East Africa.</Notification>
+            <Notification>Launching operations across Uganda.</Notification>
             <Heading>
               <span>KAMM</span>
               <br />
               <SlantedBackground>FARM SERVICES</SlantedBackground>
             </Heading>
-            <PrimaryAction>Read Customer Stories</PrimaryAction>
+            <PrimaryAction>Check out our Activities</PrimaryAction>
           </LeftColumn>
           <RightColumn>
             

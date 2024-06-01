@@ -26,8 +26,8 @@ export default function Activities() {
       {
         imageSrc:
           require("../images/kamm/1.jpg"),
-        title: "Veg Mixer",
-        content: "Tomato Salad & Carrot",
+        title: "Kalangala demo",
+        content: "",
         price: "$5.99",
         rating: "5.0",
         reviews: "87",
@@ -37,8 +37,8 @@ export default function Activities() {
       {
         imageSrc:
           require("../images/kamm/2.jpg"),
-        title: "Macaroni",
-        content: "Cheese Pizza",
+        title: "Kalangala demo",
+        content: "",
         price: "$2.99",
         rating: "4.8",
         reviews: "32",
@@ -48,8 +48,8 @@ export default function Activities() {
       {
         imageSrc:
           require('../images/kamm/3.jpg'),
-        title: "Nelli",
-        content: "Hamburger & Fries",
+        title: "Kalangala demo",
+        content: "",
         price: "$7.99",
         rating: "4.9",
         reviews: "89",
@@ -59,8 +59,8 @@ export default function Activities() {
       {
         imageSrc:
           require('../images/kamm/4.jpg'),
-        title: "Jalapeno Poppers",
-        content: "Crispy Soyabeans",
+        title: "Kalangala demo",
+        content: "",
         price: "$8.99",
         rating: "4.6",
         reviews: "12",
@@ -70,8 +70,8 @@ export default function Activities() {
       {
         imageSrc:
           require('../images/kamm/5.jpg'),
-        title: "Cajun Chicken",
-        content: "Roasted Chicken & Egg",
+        title: "Kalangala demo",
+        content: "",
         price: "$7.99",
         rating: "4.2",
         reviews: "19",
@@ -81,8 +81,8 @@ export default function Activities() {
       {
         imageSrc:
           require('../images/kamm/10.jpg'),
-        title: "Chillie Cake",
-        content: "Deepfried Chicken",
+        title: "Kalangala demo",
+        content: "",
         price: "$2.99",
         rating: "5.0",
         reviews: "61",
@@ -92,8 +92,8 @@ export default function Activities() {
       {
         imageSrc:
           require('../images/kamm/11.jpg'),
-        title: "Guacamole Mex",
-        content: "Mexican Chilli",
+        title: "Kalangala demo",
+        content: "",
         price: "$3.99",
         rating: "4.2",
         reviews: "95",
@@ -103,8 +103,8 @@ export default function Activities() {
       {
         imageSrc:
           require('../images/kamm/8.jpg'),
-        title: "Carnet Nachos",
-        content: "Chilli Crispy Nachos",
+        title: "Kalangala demo",
+        content: "",
         price: "$3.99",
         rating: "3.9",
         reviews: "26",
@@ -115,9 +115,9 @@ export default function Activities() {
     Awards : [
       {
         imageSrc:
-          "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
-        title: "Veg Mixer",
-        content: "Tomato Salad & Carrot",
+          require('../images/kamm/15.jpg'),
+        title: "Mandeen Team",
+        content: "Kamm visits mandeen team in Saudi Arabia",
         price: "$5.99",
         rating: "5.0",
         reviews: "87",
@@ -126,20 +126,20 @@ export default function Activities() {
       },
       {
         imageSrc:
-          "https://images.unsplash.com/photo-1432139555190-58524dae6a55?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
-        title: "Macaroni",
-        content: "Cheese Pizza",
+          require('../images/kamm/16.jpg'),
+        title: "Mandeen Team",
+        content: "Kamm visits mandeen team in Saudi Arabia",
         price: "$2.99",
         rating: "4.8",
         reviews: "32",
         url: "#",
-        Type:"Tranings",
+        Type:"Awards",
       },
       {
         imageSrc:
-          "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
-        title: "Veg Mixer",
-        content: "Tomato Salad & Carrot",
+          require('../images/5.jpg'),
+        title: "African Food Summit",
+        content: "Tanzania",
         price: "$5.99",
         rating: "5.0",
         reviews: "87",
@@ -148,20 +148,20 @@ export default function Activities() {
       },
       {
         imageSrc:
-          "https://images.unsplash.com/photo-1432139555190-58524dae6a55?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
-        title: "Macaroni",
-        content: "Cheese Pizza",
+          require('../images/12.jpg'),
+        title: "African Food Summit",
+        content: "Tanzania",
         price: "$2.99",
         rating: "4.8",
         reviews: "32",
         url: "#",
-        Type:"Tranings",
+        Type:"Awards",
       },
       {
         imageSrc:
-          "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
-        title: "Veg Mixer",
-        content: "Tomato Salad & Carrot",
+          require('../images/9.jpg'),
+        title: "HAYA Award",
+        content: "AFrican Food Summit(Tanzania)",
         price: "$5.99",
         rating: "5.0",
         reviews: "87",
@@ -170,20 +170,20 @@ export default function Activities() {
       },
       {
         imageSrc:
-          "https://images.unsplash.com/photo-1432139555190-58524dae6a55?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
-        title: "Macaroni",
-        content: "Cheese Pizza",
+          require('../images/11.jpg'),
+        title: "HAYA Award",
+        content: "African Food Summit(Tanzania)",
         price: "$2.99",
         rating: "4.8",
         reviews: "32",
         url: "#",
-        Type:"Tranings",
+        Type:"Awards",
       },
       {
         imageSrc:
-          "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
-        title: "Veg Mixer",
-        content: "Tomato Salad & Carrot",
+          require('../images/1.jpg'),
+        title: "African Food Summit",
+        content: "Tazania",
         price: "$5.99",
         rating: "5.0",
         reviews: "87",
@@ -192,14 +192,14 @@ export default function Activities() {
       },
       {
         imageSrc:
-          "https://images.unsplash.com/photo-1432139555190-58524dae6a55?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
-        title: "Macaroni",
-        content: "Cheese Pizza",
+          require('../images/2.jpg'),
+        title: "African Food Summit",
+        content: "Tanzania",
         price: "$2.99",
         rating: "4.8",
         reviews: "32",
         url: "#",
-        Type:"Tranings",
+        Type:"Awards",
       },
     ],
 
