@@ -22,6 +22,99 @@ const HighlightedText = tw.span`bg-primary-500 text-gray-100 px-4 transform -ske
 export default function Activities() {
 
   const tabs = {
+    Visits : [
+      {
+        imageSrc:
+          require("../images/kamm_ambassador/6.jpg"),
+        title: "",
+        content: "Visit from the Norwegian Ambassador",
+        price: "$5.99",
+        rating: "5.0",
+        reviews: "87",
+        url: "#",
+        Type:"",
+      },
+      {
+        imageSrc:
+          require("../images/kamm_ambassador/4.jpg"),
+        title: "",
+        content: "Visit from the Norwegian Ambassador",
+        price: "$5.99",
+        rating: "5.0",
+        reviews: "87",
+        url: "#",
+        Type:"",
+      },
+      {
+        imageSrc:
+          require("../images/kamm_ambassador/15.jpg"),
+        title: "",
+        content: "Visit from the Norwegian Ambassador",
+        price: "$5.99",
+        rating: "5.0",
+        reviews: "87",
+        url: "#",
+        Type:"",
+      },
+      {
+        imageSrc:
+          require("../images/kamm_ambassador/20.jpg"),
+        title: "",
+        content: "Visit from the Norwegian Ambassador",
+        price: "$5.99",
+        rating: "5.0",
+        reviews: "87",
+        url: "#",
+        Type:"",
+      },
+      {
+        imageSrc:
+          require("../images/kamm_ambassador/21.jpg"),
+        title: "",
+        content: "Visit from the Norwegian Ambassador",
+        price: "$5.99",
+        rating: "5.0",
+        reviews: "87",
+        url: "#",
+        Type:"",
+      },
+
+      {
+        imageSrc:
+          require("../images/kamm_ambassador/22.jpg"),
+        title: "",
+        content: "Visit from the Norwegian Ambassador",
+        price: "$5.99",
+        rating: "5.0",
+        reviews: "87",
+        url: "#",
+        Type:"",
+      },
+      {
+        imageSrc:
+          require("../images/kamm_ambassador/11.jpg"),
+        title: "",
+        content: "Showcasing of the quality of coffee produce.",
+        price: "$5.99",
+        rating: "5.0",
+        reviews: "87",
+        url: "#",
+        Type:"",
+      },
+      {
+        imageSrc:
+          require("../images/kamm_ambassador/23.jpg"),
+        title: "",
+        content: "Visit around the KAMM STORE",
+        price: "$5.99",
+        rating: "5.0",
+        reviews: "87",
+        url: "#",
+        Type:"",
+      },
+
+    ],
+
     Trainings : [
       {
         imageSrc:

@@ -64,7 +64,7 @@ export default ({
     </>
   ),
   description = "Some of the recent activities that we participated in .",
-  linkText = "View all Activities",
+  linkText = "View all Awards",
   cardLinkText = "View more",
   textOnLeft = false
 }) => {
@@ -99,7 +99,7 @@ export default ({
               <Subheading>{subheading}</Subheading>
               <HeadingTitle>{headingHtmlComponent}</HeadingTitle>
               <HeadingDescription>{description}</HeadingDescription>
-              <PrimaryLink>
+              <PrimaryLink onClick = {()=>{window.open("/Activities",'__blank__')}}>
                 {linkText} <ArrowRightIcon />
               </PrimaryLink>
             </HeadingInfoContainer>

@@ -3,14 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@babel/cli": "^7.24.6",
+    "@babel/core": "^7.24.6",
+    "@babel/preset-env": "^7.24.6",
+    "@babel/preset-react": "^7.24.6",
+    "@babel/register": "^7.24.6",
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
     "@mui/material": "^5.15.19",
     "@testing-library/jest-dom": "^5.16.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^14.4.3",
-    "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.7.0",
     "feather-icons": "^4.29.0",
     "framer-motion": "^7.3.2",
     "react": "^18.0.0",
@@ -61,5 +64,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/node": "^7.24.6",
+    "babel-plugin-macros": "^3.1.0",
+    "babel-plugin-module-resolver": "^5.0.2"
   }
 }
