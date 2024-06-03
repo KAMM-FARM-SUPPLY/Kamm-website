@@ -91,6 +91,22 @@ export default () => {
   /* Change this according to your needs */
   const cards = [
     {
+      imageSrc: require("../../images/kamm_ambassador/14.jpg"),
+      title: "STORAGE VISIT",
+      description: "A brief tour around KAMM FARM STORES by the NORWEGIAN Ambassador.",
+      locationText: "Uganda",
+      pricingText: "USD 99/Day",
+      rating: 4.5,
+    },
+    {
+      imageSrc: require("../../images/kamm_ambassador/15.jpg"),
+      title: "STORAGE VISIT",
+      description: "A brief tour around KAMM FARM STORES by the NORWEGIAN Ambassador.",
+      locationText: "Uganda",
+      pricingText: "USD 99/Day",
+      rating: 4.5,
+    },
+    {
       imageSrc: require("../../images/1.jpg"),
       title: "Summit",
       description: "Focusing on building back better food systems and food sovereignty with youth and women at the center.",
@@ -119,6 +135,22 @@ export default () => {
       title: "Summit",
       description: "Focusing on building back better food systems and food sovereignty with youth and women at the center.",
       locationText: "Dar-es-salaam, Tanzania",
+      pricingText: "USD 99/Day",
+      rating: 4.5,
+    },
+    {
+      imageSrc: require("../../images/kamm_ambassador/14.jpg"),
+      title: "STORAGE VISIT",
+      description: "A brief tour around KAMM FARM STORES by the NORWEGIAN Ambassador.",
+      locationText: "Uganda",
+      pricingText: "USD 99/Day",
+      rating: 4.5,
+    },
+    {
+      imageSrc: require("../../images/kamm_ambassador/15.jpg"),
+      title: "STORAGE VISIT",
+      description: "A brief tour around KAMM FARM STORES by the NORWEGIAN Ambassador.",
+      locationText: "Uganda",
       pricingText: "USD 99/Day",
       rating: 4.5,
     },
