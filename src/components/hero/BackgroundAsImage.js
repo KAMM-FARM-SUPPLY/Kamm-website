@@ -95,7 +95,7 @@ export default () => {
               <br />
               <SlantedBackground>FARM SERVICES</SlantedBackground>
             </Heading>
-            <PrimaryAction>Check out our Activities</PrimaryAction>
+            <PrimaryAction onClick={()=>{window.open("/Activities",'__blank__')}}>Check out our Activities</PrimaryAction>
           </LeftColumn>
           <RightColumn>
             
